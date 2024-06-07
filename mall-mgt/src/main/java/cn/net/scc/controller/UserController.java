@@ -89,4 +89,10 @@ public class UserController {
 	public int deleteByIds(@RequestBody @NotNull List<Long> ids) {
 		return userService.deleteByIds(ids);
 	}
+
+	@ApiOperation(notes = "删除用户", value = "删除用户")
+	@PostMapping("/deleteById")
+	public int deleteById(@RequestBody @NotNull Long id) {
+		return userService.deleteById(id);
+	}
 }

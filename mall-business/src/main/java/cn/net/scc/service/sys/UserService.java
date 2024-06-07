@@ -83,6 +83,10 @@ public class UserService extends BaseService<UserEntity, UserConditionEntity> {
 		return userMapper.deleteByIds(ids, entity);
 	}
 
+	public int deleteById(Long id) {
+		return userMapper.deleteById(id);
+	}
+
 	@Override
 	protected BaseMapper getBaseMapper() {
 		return userMapper;

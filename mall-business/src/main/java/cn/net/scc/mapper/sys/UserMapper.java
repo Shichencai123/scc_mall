@@ -47,6 +47,8 @@ public interface UserMapper extends BaseMapper  {
      */
 	int deleteByIds(@Param("ids") List<Long> ids, @Param("entity") UserEntity entity);
 
+	int deleteById(@Param("id") Long id);
+
 	/**
      * 批量查询用户信息
      *

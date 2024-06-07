@@ -292,6 +292,12 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         </foreach>
     </delete>
 
+    <delete id="deleteById">
+        UPDATE sys_user
+        SET is_del = 1,update_time=now(3)
+        WHERE id = #{id}
+    </delete>
+
     <insert id="insert" parameterType="cn.net.scc.entity.sys.UserEntity">
         INSERT INTO sys_user
         <trim prefix="(" suffix=")" suffixOverrides=",">
