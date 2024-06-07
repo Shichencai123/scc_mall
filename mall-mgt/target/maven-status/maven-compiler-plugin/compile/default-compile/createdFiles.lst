@@ -1,0 +1,9 @@
+cn\net\scc\controller\RoleMenuController.class
+cn\net\scc\controller\JobController.class
+cn\net\scc\controller\RoleDeptController.class
+cn\net\scc\ApiApplication.class
+cn\net\scc\controller\UserAvatarController.class
+cn\net\scc\controller\UserRoleController.class
+cn\net\scc\controller\DeptController.class
+cn\net\scc\controller\UserController.class
+cn\net\scc\controller\DictController.class

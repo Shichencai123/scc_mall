@@ -54,9 +54,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
          update_user_id,
          update_user_name,
          update_time,
-         is_del,
-         last_login_city,
-         last_login_time
+         is_del
     </sql>
 
     <sql id="queryWhere">

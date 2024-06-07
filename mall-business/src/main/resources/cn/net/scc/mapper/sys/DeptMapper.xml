@@ -98,7 +98,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     </select>
 
     <select id="searchByCondition"
-            parameterType="cn.net.scc.entity.DeptConditionEntity"
+            parameterType="cn.net.scc.entity.sys.DeptConditionEntity"
             resultMap="DeptResult">
         SELECT
         <include refid="selectDeptColumn"/>

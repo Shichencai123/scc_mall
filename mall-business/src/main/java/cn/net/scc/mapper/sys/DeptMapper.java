@@ -6,6 +6,7 @@ import java.util.List;
 
 import cn.net.scc.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
 /**
  * 部门 mapper

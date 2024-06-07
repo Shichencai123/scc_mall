@@ -14,8 +14,6 @@ import cn.net.scc.entity.sys.DeptEntity;
 /**
  * 部门 服务层
  *
- * @author shicc 该项目是知识星球：java突击队 的内部项目
- * @date 2024-06-06 23:25:17
  */
 @Service
 public class DeptService extends BaseService<DeptEntity, DeptConditionEntity> {

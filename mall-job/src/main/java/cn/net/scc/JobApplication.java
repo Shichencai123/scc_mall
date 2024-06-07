@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Date: 2024/6/7 10:02
  * @Author: shicc
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"cn.net.scc"})
 public class JobApplication {
     public static void main(String[] args) {
         SpringApplication.run(JobApplication.class, args);
